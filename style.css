@@ -1,0 +1,23 @@
+*, ::after, ::before
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./header/2.png);
+    background-repeat: no-repeat;
+}
+
+h1
+{
+    font-size: 64px;
+    color:blue;
+    text-shadow: 0 0 10px blueviolet;
+}
